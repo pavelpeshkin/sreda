@@ -1,0 +1,27 @@
+body {
+    font-size: 14pt;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+
+section {
+    width: 70%;
+    max-width: 1080px;
+    min-width: 700px;
+    margin : auto;
+}
+
+.block {
+    font-family: monospace;
+    background-color: #eee1b2;
+    color: #695308;
+    padding: 20px;
+    border: 1px #695308 solid;
+    border-radius: 20px;
+    transition: all 0.3s;
+}
+.block:hover {
+    background-color: #e4c86e;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
